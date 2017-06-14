@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio 6</title>
+	<style>
+		div{
+			width:400px;
+			height: 400px;
+			position: relative;
+			margin:auto;
+			margin-top: 50px;
+			margin-bottom: 0px;
+			border:solid #8C8C8C 1px;
+		}
+		#energy{
+			width: 400px;
+			position: absolute;
+			z-index: -10;
+		}
+		#camion{
+			width: 120px;
+			z-index: 10;
+			position: absolute;
+			bottom: 10px;
+			right: 10px;
+		}
+		p{
+			color:#8C8C8C;
+			font-size: 1.7em;
+			text-align: center;
+			margin: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<img id="energy" src="imagenes/energy.jpg">
+		<img id="camion" src="imagenes/camion.png">
+	</div>
+	<p>Energy Extra Batería 10000 Mah</p>
+</body>
+</html>
